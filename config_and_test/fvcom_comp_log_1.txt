@@ -1,0 +1,1121 @@
+byy@byy-MS-7E06:~/Documents/FVCOM/src$ make
+mpicc -c  -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include func_pointer.c -o func_pointer.o
+mpicc -c  -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include partition.c -o partition.o
+make: Circular mod_prec.o <- mod_prec.o dependency dropped.
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_prec.F > mod_prec.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_prec.f90
+\rm mod_prec.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include sinter.F > sinter.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include sinter.f90
+\rm sinter.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_types.F > mod_types.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_types.f90
+\rm mod_types.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_time.F > mod_time.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_time.f90
+\rm mod_time.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_main.F > mod_main.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_main.f90
+\rm mod_main.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_spherical.F > mod_spherical.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_spherical.f90
+\rm mod_spherical.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod1.F > swmod1.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod1.f90
+\rm swmod1.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_utils.F > mod_utils.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_utils.f90
+\rm mod_utils.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_clock.F > mod_clock.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_clock.f90
+\rm mod_clock.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include eqs_of_state.F > eqs_of_state.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include eqs_of_state.f90
+\rm eqs_of_state.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_interp.F > mod_interp.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_interp.f90
+\rm mod_interp.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_par.F > mod_par.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_par.f90
+\rm mod_par.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_par_special.F > mod_par_special.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_par_special.f90
+\rm mod_par_special.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ncll.F > mod_ncll.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ncll.f90
+\rm mod_ncll.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_nctools.F > mod_nctools.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_nctools.f90
+mod_nctools.f90:203:45:
+
+  203 |   TYPE(NCFILELIST), POINTER, SAVE :: FILEHEAD
+      |                                             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm mod_nctools.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wd.F > mod_wd.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wd.f90
+\rm mod_wd.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sng.F > mod_sng.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sng.f90
+\rm mod_sng.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_heatflux.F > mod_heatflux.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_heatflux.f90
+\rm mod_heatflux.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_solar.F > mod_solar.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_solar.f90
+\rm mod_solar.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_input.F > mod_input.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_input.f90
+\rm mod_input.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_force.F > mod_force.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_force.f90
+\rm mod_force.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs.F > mod_obcs.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs.f90
+\rm mod_obcs.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_main_wave.F > mod_main_wave.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_main_wave.f90
+\rm mod_main_wave.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bulk.F > mod_bulk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bulk.f90
+\rm mod_bulk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_petsc.F > mod_petsc.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_petsc.f90
+\rm mod_petsc.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_dam.F > mod_dam.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_dam.f90
+\rm mod_dam.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_northpole.F > mod_northpole.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_northpole.f90
+\rm mod_northpole.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_semi_implicit.F > mod_semi_implicit.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_semi_implicit.f90
+\rm mod_semi_implicit.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_non_hydro.F > mod_non_hydro.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_non_hydro.f90
+\rm mod_non_hydro.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_set_time.F > mod_set_time.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_set_time.f90
+\rm mod_set_time.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_kinds_mod.F > ice_kinds_mod.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_kinds_mod.f90
+\rm ice_kinds_mod.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_model_size.F > ice_model_size.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_model_size.f90
+\rm ice_model_size.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_domain.F > ice_domain.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_domain.f90
+ice_domain.f90:88:19:
+
+   88 |        index_global          ! global index for local subdomain (int)
+      |                   1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_domain.f90:100:18:
+
+  100 |        master_task            ! task id for master process
+      |                  1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_domain.f90:99:14:
+
+   99 |        my_task,      &          ! task id for local process
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_domain.f90:96:19:
+
+   96 |        rndex_global           ! global index for local subdomain (dbl)
+      |                   1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_domain.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_constants.F > ice_constants.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_constants.f90
+\rm ice_constants.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_fileunits.F > ice_fileunits.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_fileunits.f90
+\rm ice_fileunits.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_state.F > ice_state.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_state.f90
+\rm ice_state.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_work.F > ice_work.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_work.f90
+\rm ice_work.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_grid.F > ice_grid.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_grid.f90
+\rm ice_grid.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_albedo.F > ice_albedo.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_albedo.f90
+\rm ice_albedo.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_calendar.F > ice_calendar.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_calendar.f90
+\rm ice_calendar.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_flux.F > ice_flux.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_flux.f90
+ice_flux.f90:154:15:
+
+  154 |      &   congel    &! basal ice growth         (m/step-->cm/day)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:74:15:
+
+   74 |      &,  daidtd      &! &ice area tendency due to transport   (s^-1)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:160:15:
+
+  160 |      &,  daidtt    &! ice area tendency thermo.   (s^-1)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:75:15:
+
+   75 |      &,  dvidtd      &!  ice volume tendency due to transport (m/s)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:161:15:
+
+  161 |      &,  dvidtt    &! ice volume tendency thermo. (m/s)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:130:13:
+
+  130 |      &,  evap        &! evaporative water flux (kg/m^2/s)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:138:14:
+
+  138 |      &,  fhnet      & ! net heat flux to ocean (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:172:19:
+
+  172 |      &,  fhnet_hist   &! net heat flux to ocean (W/m^2)
+      |                   1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:127:13:
+
+  127 |      &,  flat        &! latent heat flux   (W/m^2)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:142:12:
+
+  142 |      &,  flh        &  ! latent heat flux to ocean (W/m^2)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:106:12:
+
+  106 |      &,  flw        & ! incoming longwave radiation (W/m^2)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:146:16:
+
+  146 |      &,  flwitot        ! net longwave rafiation from ice (W/m^2)
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:129:15:
+
+  129 |      &,  flwout      &! outgoing longwave radiation (W/m^2)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:144:15:
+
+  144 |      &,  flwtot     &   ! net longwave rafiation from ocean (W/m^2)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:143:14:
+
+  143 |      &,  flwup      &  ! outgoing longwave rafiation from  ocean (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:107:14:
+
+  107 |      &,  frain      & ! rainfall rate (kg/m^2 s)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:155:15:
+
+  155 |      &,  frazil    &! frazil ice growth        (m/step-->cm/day)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:136:14:
+
+  136 |      &,  fresh      & ! fresh water flux to ocean (kg/m^2/s)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:170:19:
+
+  170 |      &,  fresh_hist   &! fresh water flux to ocean (kg/m^2/s)
+      |                   1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:163:18:
+
+  163 |      &,  frz_onset &! day of year that freezing begins (congel or frazil)
+      |                  1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:112:15:
+
+  112 |      &,  frzmlt     & ! freezing/melting potential (W/m^2)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:137:14:
+
+  137 |      &,  fsalt      & ! salt flux to ocean (kg/m^2/s)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:171:19:
+
+  171 |      &,  fsalt_hist   &! salt flux to ocean (kg/m^2/s)
+      |                   1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:126:14:
+
+  126 |      &   fsens       &! sensible heat flux (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:141:12:
+
+  141 |      &,  fsh        &  ! sensible heat flux to ocean (W/m^2)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:108:14:
+
+  108 |      &,  fsnow      & ! snowfall rate (kg/m^2 s)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:178:12:
+
+  178 |      &   fsw         &! incoming shortwave radiation (W/m^2)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:128:15:
+
+  128 |      &,  fswabs      &! shortwave flux absorbed in ice and ocean (W/m^2)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:139:16:
+
+  139 |      &,  fswthru    & ! shortwave penetrating to ocean (W/m^2)
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:173:21:
+
+  173 |      &,  fswthru_hist  ! shortwave penetrating to ocean (W/m^2)
+      |                     1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:117:13:
+
+  117 |      &,  hmix         ! mixed layer depth (m)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:181:15:
+
+  181 |      &,  lhcoef       ! transfer coefficient for latent heat
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:158:14:
+
+  158 |      &,  meltb     &! basal ice melt           (m/step-->cm/day)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:159:14:
+
+  159 |      &,  meltl     &! lateral ice melt         (m/step-->cm/day)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:157:14:
+
+  157 |      &,  meltt     &! top ice melt             (m/step-->cm/day)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:162:18:
+
+  162 |      &,  mlt_onset &! day of year that sfc melting begins
+      |                  1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:98:13:
+
+   98 |      &,  potT       & ! air potential temperature  (K)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:100:11:
+
+  100 |      &,  Qa         & ! specific humidity (kg/kg)
+      |           1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:116:12:
+
+  116 |      &,  qdp        & ! deep ocean heat flux (W/m^2)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:132:13:
+
+  132 |      &,  Qref        &! 2m atm reference sp humidity (kg/kg)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:101:13:
+
+  101 |      &,  rhoa       & ! air density (kg/m^3)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:180:15:
+
+  180 |      &,  shcoef      &! transfer coefficient for sensible heat
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:156:15:
+
+  156 |      &,  snoice    &! snow-ice formation       (m/step-->cm/day)
+      |               1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:59:16:
+
+   59 |      &   ss_tltx     &! sea surface slope, x-direction (m/m)
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:60:16:
+
+   60 |      &,  ss_tlty     &! sea surface slope, y-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:113:12:
+
+  113 |      &,  sss        & ! sea surface salinity (ppt)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:114:12:
+
+  114 |      &,  sst        & ! sea surface temperature (C)
+      |            1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:80:16:
+
+   80 |      &,  strairx     &! stress on ice by air, x-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:66:17:
+
+   66 |      &,  strairxT    &! stress on ice by air, x-direction
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:81:16:
+
+   81 |      &,  strairy     &! stress on ice by air, y-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:67:17:
+
+   67 |      &,  strairyT    &! stress on ice by air, y-direction
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:78:16:
+
+   78 |      &,  strocnx     &! ice-ocean stress, x-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:70:17:
+
+   70 |      &,  strocnxT    &! ice-ocean stress, x-direction
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:79:16:
+
+   79 |      &,  strocny     &! ice-ocean stress, y-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:71:17:
+
+   71 |      &,  strocnyT    &! ice-ocean stress, y-direction
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:82:16:
+
+   82 |      &,  strtltx     &! stress due to sea surface slope, x-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:83:16:
+
+   83 |      &,  strtlty      ! stress due to sea surface slope, y-direction
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:105:14:
+
+  105 |      &,  swidf      & ! sw down, near IR, diffuse (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:104:14:
+
+  104 |      &,  swidr      & ! sw down, near IR, direct  (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:103:14:
+
+  103 |      &,  swvdf      & ! sw down, visible, diffuse (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:102:14:
+
+  102 |      &,  swvdr      & ! sw down, visible, direct  (W/m^2)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:99:13:
+
+   99 |      &,  Tair       & ! air temperature  (K)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:115:11:
+
+  115 |      &,  Tf         & ! freezing temperature (C)
+      |           1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:131:13:
+
+  131 |      &,  Tref        &! 2m atm reference temperature (K)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:96:13:
+
+   96 |      &,  uatm       & ! wind speed (m/s)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:61:13:
+
+   61 |      &,  uocn        &! ocean current, x-direction (m/s)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:97:13:
+
+   97 |      &,  vatm       &
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:62:13:
+
+   62 |      &,  vocn        &! ocean current, y-direction (m/s)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:179:13:
+
+  179 |      &,  wind        &! wind speed (m/s)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux.f90:95:13:
+
+   95 |      &   zlvl       & ! atm level height (m)
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_flux.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_flux_in.F > ice_flux_in.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_flux_in.f90
+ice_flux_in.f90:62:14:
+
+   62 |           cldf                ! cloud fraction
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:88:20:
+
+   88 |       ,    cldf_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:97:20:
+
+   97 |       ,     flw_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:89:20:
+
+   89 |       ,   fsnow_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:87:20:
+
+   87 |             fsw_data     & ! field values at 2 temporal data points
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:95:20:
+
+   95 |       ,    potT_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:93:20:
+
+   93 |       ,      Qa_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:94:20:
+
+   94 |       ,    rhoa_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:99:20:
+
+   99 |       ,     sss_data
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:98:20:
+
+   98 |       ,     sst_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:90:20:
+
+   90 |       ,    Tair_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:91:20:
+
+   91 |       ,    uatm_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:92:20:
+
+   92 |       ,    vatm_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_flux_in.f90:96:20:
+
+   96 |       ,    zlvl_data     &
+      |                    1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_flux_in.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_itd.F > ice_itd.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_itd.f90
+\rm ice_itd.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_mechred.F > ice_mechred.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_mechred.f90
+ice_mechred.f90:136:14:
+
+  136 |       ,  aksum             ! ratio of area removed to area ridged
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:140:16:
+
+  140 |          apartic          ! participation function; fraction of ridging/
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:135:13:
+
+  135 |          asum           &  ! sum of total ice and open water area
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:122:17:
+
+  122 |          dardg1dt        & ! rate of fractional area loss by ridging ice (1/s)
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:123:17:
+
+  123 |       ,  dardg2dt        & ! rate of fractional area gain by new ridges (1/s)
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:124:17:
+
+  124 |       ,  dvirdgdt        & ! rate of ice volume ridged (m/s)
+      |                 1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:147:14:
+
+  147 |       ,  hrexp           & ! ridge e-folding thickness (krdg_redist = 1)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:146:14:
+
+  146 |       ,  hrmax           & ! maximum ridge thickness
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:145:14:
+
+  145 |          hrmin           & ! minimum ridge thickness
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:148:13:
+
+  148 |       ,  krdg              ! mean ridge thickness/thickness of ridging ice
+      |             1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_mechred.f90:125:16:
+
+  125 |       ,  opening           ! rate of opening due to divergence/shear (1/s)
+      |                1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_mechred.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_itd_linear.F > ice_itd_linear.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_itd_linear.f90
+\rm ice_itd_linear.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_scaling.F > ice_scaling.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_scaling.f90
+\rm ice_scaling.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_atmo.F > ice_atmo.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_atmo.f90
+\rm ice_atmo.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_ocean.F > ice_ocean.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_ocean.f90
+\rm ice_ocean.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_therm_vertical.F > ice_therm_vertical.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_therm_vertical.f90
+ice_therm_vertical.f90:85:18:
+
+   85 |          hicen_old       ! old ice thick ness (m), used by ice_therm_itd
+      |                  1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+ice_therm_vertical.f90:89:14:
+
+   89 |          rside           ! fraction of i ce that melts laterally
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_therm_vertical.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_init.F > ice_init.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_init.f90
+\rm ice_init.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_therm_itd.F > ice_therm_itd.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ice_therm_itd.f90
+ice_therm_itd.f90:67:14:
+
+   67 |      &   hicen           ! ice thickness (m)
+      |              1
+Warning: Legacy Extension: Duplicate SAVE attribute specified at (1)
+\rm ice_therm_itd.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ice2d.F > mod_ice2d.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ice2d.f90
+\rm mod_ice2d.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ice.F > mod_ice.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ice.f90
+\rm mod_ice.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod2.F > swmod2.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod2.f90
+\rm swmod2.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_meanflow.F > mod_meanflow.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_meanflow.f90
+\rm mod_meanflow.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs2.F > mod_obcs2.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs2.f90
+\rm mod_obcs2.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs3.F > mod_obcs3.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_obcs3.f90
+\rm mod_obcs3.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_tvd.F > mod_tvd.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_tvd.f90
+\rm mod_tvd.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wqm.F > mod_wqm.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wqm.f90
+\rm mod_wqm.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bio_3D.F > mod_bio_3D.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bio_3D.f90
+\rm mod_bio_3D.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_balance_2d.F > mod_balance_2d.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_balance_2d.f90
+\rm mod_balance_2d.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_station_timeseries.F > mod_station_timeseries.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_station_timeseries.f90
+\rm mod_station_timeseries.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sparse_timeseries.F > mod_sparse_timeseries.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sparse_timeseries.f90
+\rm mod_sparse_timeseries.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wave_current_interaction.F > mod_wave_current_interaction.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wave_current_interaction.f90
+\rm mod_wave_current_interaction.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_newinp.F > mod_newinp.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_newinp.f90
+\rm mod_newinp.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_fluid_mud.F > mod_fluid_mud.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_fluid_mud.f90
+\rm mod_fluid_mud.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_tridiag.F > mod_tridiag.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_tridiag.f90
+\rm mod_tridiag.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_scal.F > mod_scal.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_scal.f90
+\rm mod_scal.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_cstms_vars.F > mod_cstms_vars.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_cstms_vars.f90
+\rm mod_cstms_vars.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_flocmod.F > mod_flocmod.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_flocmod.f90
+\rm mod_flocmod.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sed_cstms.F > mod_sed_cstms.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sed_cstms.f90
+\rm mod_sed_cstms.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sed.F > mod_sed.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_sed.f90
+\rm mod_sed.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_dye.F > mod_dye.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_dye.f90
+\rm mod_dye.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ncdio.F > mod_ncdio.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_ncdio.f90
+\rm mod_ncdio.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_setup.F > mod_setup.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_setup.f90
+\rm mod_setup.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_nesting.F > mod_nesting.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_nesting.f90
+\rm mod_nesting.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_startup.F > mod_startup.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_startup.f90
+\rm mod_startup.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include particle.F > particle.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include particle.f90
+\rm particle.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include linklist.F > linklist.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include linklist.f90
+\rm linklist.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_lag.F > mod_lag.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_lag.f90
+\rm mod_lag.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_pwp.F > mod_pwp.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_pwp.f90
+\rm mod_pwp.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_optimal_interpolation.F > mod_optimal_interpolation.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_optimal_interpolation.f90
+\rm mod_optimal_interpolation.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_report.F > mod_report.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_report.f90
+\rm mod_report.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_probe.F > mod_probe.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_probe.f90
+\rm mod_probe.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_gotm.F > mod_gotm.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_gotm.f90
+\rm mod_gotm.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf.F > mod_enkf.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf.f90
+\rm mod_enkf.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_etkf.F > mod_etkf.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_etkf.f90
+\rm mod_etkf.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrk.F > mod_rrk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrk.f90
+\rm mod_rrk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrkf_obs.F > mod_rrkf_obs.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrkf_obs.f90
+\rm mod_rrkf_obs.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrkassim.F > mod_rrkassim.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_rrkassim.f90
+\rm mod_rrkassim.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf_ncd.F > mod_enkf_ncd.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf_ncd.f90
+\rm mod_enkf_ncd.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include enkf_ncdio.F > enkf_ncdio.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include enkf_ncdio.f90
+\rm enkf_ncdio.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf_obs.F > mod_enkf_obs.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkf_obs.f90
+\rm mod_enkf_obs.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkfassim.F > mod_enkfassim.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_enkfassim.f90
+\rm mod_enkfassim.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_assim.F > mod_assim.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_assim.f90
+\rm mod_assim.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_visit.F > mod_visit.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_visit.f90
+\rm mod_visit.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_plbc.F > mod_plbc.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_plbc.f90
+\rm mod_plbc.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_boundschk.F > mod_boundschk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_boundschk.f90
+\rm mod_boundschk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_esmf_nesting.F > mod_esmf_nesting.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_esmf_nesting.f90
+\rm mod_esmf_nesting.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_mld_rho.F > mod_mld_rho.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_mld_rho.f90
+\rm mod_mld_rho.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_vegetation.F > mod_vegetation.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_vegetation.f90
+\rm mod_vegetation.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_heatflux_sediment.F > mod_heatflux_sediment.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_heatflux_sediment.f90
+\rm mod_heatflux_sediment.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_vector_projection.F > mod_vector_projection.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_vector_projection.f90
+\rm mod_vector_projection.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod3.F > swmod3.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swmod3.f90
+\rm swmod3.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_action_im.F > mod_action_im.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_action_im.f90
+\rm mod_action_im.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_action_ex.F > mod_action_ex.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_action_ex.f90
+mod_action_ex.f90:308:49:
+
+  308 |   IF(B(1) == 0.)PAUSE 'TRIDAG: REWRITE EQUATIONS'
+      |                                                 1
+Warning: Deleted feature: PAUSE statement at (1)
+mod_action_ex.f90:314:38:
+
+  314 |     IF(BET == 0.)PAUSE 'TRIDAG FAILED'
+      |                                      1
+Warning: Deleted feature: PAUSE statement at (1)
+\rm mod_action_ex.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wavesetup.F > mod_wavesetup.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_wavesetup.f90
+\rm mod_wavesetup.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bbl.F > mod_bbl.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_bbl.f90
+\rm mod_bbl.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_onedtide.F > mod_onedtide.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include mod_onedtide.f90
+\rm mod_onedtide.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fvcom.F > fvcom.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fvcom.f90
+\rm fvcom.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap.F > genmap.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap.f90
+\rm genmap.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include tge.F > tge.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include tge.f90
+\rm tge.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include longshore_flow.F > longshore_flow.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include longshore_flow.f90
+\rm longshore_flow.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include cell_area.F > cell_area.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include cell_area.f90
+\rm cell_area.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include open_all.F > open_all.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include open_all.f90
+\rm open_all.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include load_grid.F > load_grid.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include load_grid.f90
+\rm load_grid.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include allocate_all.F > allocate_all.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include allocate_all.f90
+\rm allocate_all.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include setup_domain.F > setup_domain.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include setup_domain.f90
+\rm setup_domain.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap_obc.F > genmap_obc.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap_obc.f90
+\rm genmap_obc.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap_lsf.F > genmap_lsf.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include genmap_lsf.f90
+\rm genmap_lsf.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include print_vals.F > print_vals.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include print_vals.f90
+\rm print_vals.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coords_n_const.F > coords_n_const.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coords_n_const.f90
+\rm coords_n_const.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include shape_coef_gcn.F > shape_coef_gcn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include shape_coef_gcn.f90
+\rm shape_coef_gcn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include shape_coef_gcy.F > shape_coef_gcy.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include shape_coef_gcy.f90
+\rm shape_coef_gcy.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include depth_grad.F > depth_grad.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include depth_grad.f90
+\rm depth_grad.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include grid_metrics.F > grid_metrics.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include grid_metrics.f90
+\rm grid_metrics.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include cntrl_prmtrs.F > cntrl_prmtrs.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include cntrl_prmtrs.f90
+\rm cntrl_prmtrs.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include init_sed.F > init_sed.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include init_sed.f90
+\rm init_sed.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include internal_step.F > internal_step.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include internal_step.f90
+\rm internal_step.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_gcn.F > bcond_gcn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_gcn.f90
+\rm bcond_gcn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_gcy.F > bcond_gcy.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_gcy.f90
+\rm bcond_gcy.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adjust2d3d.F > adjust2d3d.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adjust2d3d.f90
+\rm adjust2d3d.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include brough.F > brough.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include brough.f90
+\rm brough.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advection_edge_gcn.F > advection_edge_gcn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advection_edge_gcn.f90
+\rm advection_edge_gcn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advection_edge_gcy.F > advection_edge_gcy.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advection_edge_gcy.f90
+\rm advection_edge_gcy.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ghostuv.F > ghostuv.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ghostuv.f90
+\rm ghostuv.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advave_edge_gcn.F > advave_edge_gcn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advave_edge_gcn.f90
+\rm advave_edge_gcn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advave_edge_gcy.F > advave_edge_gcy.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include advave_edge_gcy.f90
+\rm advave_edge_gcy.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include phy_baropg.F > phy_baropg.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include phy_baropg.f90
+\rm phy_baropg.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include baropg.F > baropg.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include baropg.f90
+\rm baropg.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include external_step.F > external_step.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include external_step.f90
+\rm external_step.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extel_edge.F > extel_edge.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extel_edge.f90
+\rm extel_edge.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extuv_edge.F > extuv_edge.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extuv_edge.f90
+\rm extuv_edge.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include depth_check.F > depth_check.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include depth_check.f90
+\rm depth_check.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vertvl_edge.F > vertvl_edge.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vertvl_edge.f90
+\rm vertvl_edge.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcn.F > adv_uv_edge_gcn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcn.f90
+\rm adv_uv_edge_gcn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcy.F > adv_uv_edge_gcy.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcy.f90
+\rm adv_uv_edge_gcy.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_uv.F > vdif_uv.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_uv.f90
+\rm vdif_uv.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extelpf_edge.F > extelpf_edge.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include extelpf_edge.f90
+\rm extelpf_edge.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include wreal.F > wreal.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include wreal.f90
+\rm wreal.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include viscofh.F > viscofh.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include viscofh.f90
+\rm viscofh.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_q.F > adv_q.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_q.f90
+\rm adv_q.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_q2.F > fct_q2.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_q2.f90
+\rm fct_q2.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_q2l.F > fct_q2l.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_q2l.f90
+\rm fct_q2l.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_q.F > vdif_q.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_q.f90
+\rm vdif_q.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_t.F > adv_t.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_t.f90
+\rm adv_t.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_s.F > adv_s.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_s.f90
+\rm adv_s.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_t.F > fct_t.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_t.f90
+\rm fct_t.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_ts.F > vdif_ts.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include vdif_ts.f90
+\rm vdif_ts.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_s.F > fct_s.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include fct_s.f90
+\rm fct_s.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_ts.F > bcond_ts.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include bcond_ts.f90
+\rm bcond_ts.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adjust_ts.F > adjust_ts.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adjust_ts.f90
+\rm adjust_ts.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include conv_over.F > conv_over.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include conv_over.f90
+\rm conv_over.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include visitsim.F > visitsim.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include visitsim.f90
+\rm visitsim.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include startup_type.F > startup_type.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include startup_type.f90
+\rm startup_type.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include edge_len.F > edge_len.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include edge_len.f90
+\rm edge_len.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adcor.F > adcor.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adcor.f90
+\rm adcor.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include icing.F > icing.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include icing.f90
+\rm icing.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include rho_pmean.F > rho_pmean.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include rho_pmean.f90
+\rm rho_pmean.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include calc_vort.F > calc_vort.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include calc_vort.f90
+\rm calc_vort.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include namelist.F > namelist.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include namelist.f90
+\rm namelist.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include nh_set_nesting.F > nh_set_nesting.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include nh_set_nesting.f90
+\rm nh_set_nesting.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coare26z.F > coare26z.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coare26z.f90
+\rm coare26z.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coare40vn.F > coare40vn.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include coare40vn.f90
+\rm coare40vn.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcn_rk.F > adv_uv_edge_gcn_rk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcn_rk.f90
+\rm adv_uv_edge_gcn_rk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcy_rk.F > adv_uv_edge_gcy_rk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_uv_edge_gcy_rk.f90
+\rm adv_uv_edge_gcy_rk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_t_rk.F > adv_t_rk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_t_rk.f90
+\rm adv_t_rk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_s_rk.F > adv_s_rk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_s_rk.f90
+\rm adv_s_rk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_q_rk.F > adv_q_rk.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include adv_q_rk.f90
+\rm adv_q_rk.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpmix.F > ocpmix.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpmix.f90
+\rm ocpmix.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpcre.F > ocpcre.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpcre.f90
+\rm ocpcre.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpids.F > ocpids.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include ocpids.f90
+\rm ocpids.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanpre1.F > swanpre1.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanpre1.f90
+\rm swanpre1.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanpre2.F > swanpre2.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanpre2.f90
+\rm swanpre2.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include w3part.F > w3part.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include w3part.f90
+\rm w3part.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanser.F > swanser.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanser.f90
+\rm swanser.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanmain.F > swanmain.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swanmain.f90
+\rm swanmain.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom1.F > swancom1.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom1.f90
+\rm swancom1.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom2.F > swancom2.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom2.f90
+\rm swancom2.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom3.F > swancom3.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom3.f90
+\rm swancom3.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom4.F > swancom4.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom4.f90
+\rm swancom4.f90
+/usr/bin/cpp -P -traditional  -DGFORTRAN -P -traditional    -DWET_DRY -DMULTIPROCESSOR    -DLIMITED_NO  -DGCN     -DMPDATA                          -DPETSC_C   -DTVD     -DMETIS_5                -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom5.F > swancom5.f90
+gfortran  -c -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch -I/usr/lib/x86_64-linux-gnu/fortran/gfortran-mod-15/openmpi -I/home/byy/Documents/FVCOM/src/libs/install/include/ -I/usr/include/       -I/home/byy/local/include -I/home/byy/petsc/include -I/home/byy/petsc/arch-linux-c-debug/include swancom5.f90
+swancom5.f90:136:18:
+
+   65 |         CALL KSCIP1(MSC,SPCSIG,DEPLOC,KWAVE(1,IC),CGO(1,IC),NN,ND)
+      |                        2
+......
+  136 |     CALL KSCIP1(1,SPCSIGL,DEPLOC,KWAVEL,CGOL,NN,ND)
+      |                  1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+\rm swancom5.f90
+gfortran -O3 -ffixed-line-length-none -ffree-line-length-0 -fallow-argument-mismatch   func_pointer.o partition.o mod_prec.o sinter.o mod_types.o mod_time.o mod_main.o mod_spherical.o mod_utils.o mod_clock.o eqs_of_state.o mod_interp.o mod_par.o mod_par_special.o mod_ncll.o mod_nctools.o mod_wd.o mod_sng.o mod_heatflux.o mod_solar.o mod_bulk.o mod_input.o mod_force.o mod_obcs.o mod_petsc.o mod_semi_implicit.o mod_non_hydro.o mod_set_time.o ice_kinds_mod.o ice_model_size.o ice_domain.o ice_constants.o ice_fileunits.o ice_state.o ice_work.o ice_grid.o ice_albedo.o ice_calendar.o ice_flux.o ice_flux_in.o ice_itd.o ice_mechred.o ice_itd_linear.o ice_scaling.o ice_atmo.o ice_ocean.o ice_therm_vertical.o ice_init.o ice_therm_itd.o mod_ice2d.o mod_ice.o mod_startup.o mod_wqm.o mod_ncdio.o mod_setup.o mod_newinp.o particle.o linklist.o mod_lag.o mod_northpole.o mod_pwp.o mod_dye.o mod_optimal_interpolation.o mod_report.o mod_probe.o mod_gotm.o mod_balance_2d.o mod_tridiag.o mod_scal.o mod_meanflow.o mod_obcs2.o mod_obcs3.o mod_sed.o mod_enkf.o mod_etkf.o mod_rrk.o mod_rrkf_obs.o mod_rrkassim.o mod_enkf_ncd.o enkf_ncdio.o mod_enkf_obs.o mod_enkfassim.o mod_assim.o mod_nesting.o mod_visit.o mod_plbc.o mod_dam.o mod_station_timeseries.o mod_sparse_timeseries.o mod_boundschk.o mod_esmf_nesting.o mod_cstms_vars.o mod_flocmod.o mod_sed_cstms.o mod_fluid_mud.o mod_tvd.o mod_mld_rho.o mod_vegetation.o mod_heatflux_sediment.o mod_vector_projection.o mod_main_wave.o swmod1.o swmod2.o swmod3.o mod_action_im.o mod_action_ex.o mod_wavesetup.o mod_wave_current_interaction.o mod_bbl.o fvcom.o genmap.o tge.o longshore_flow.o cell_area.o open_all.o load_grid.o allocate_all.o setup_domain.o genmap_obc.o genmap_lsf.o print_vals.o coords_n_const.o shape_coef_gcn.o shape_coef_gcy.o depth_grad.o grid_metrics.o cntrl_prmtrs.o init_sed.o internal_step.o bcond_gcn.o bcond_gcy.o adjust2d3d.o brough.o advection_edge_gcn.o advection_edge_gcy.o ghostuv.o advave_edge_gcn.o advave_edge_gcy.o phy_baropg.o baropg.o external_step.o extel_edge.o extuv_edge.o depth_check.o vertvl_edge.o adv_uv_edge_gcn.o adv_uv_edge_gcy.o vdif_uv.o extelpf_edge.o wreal.o viscofh.o adv_q.o fct_q2.o fct_q2l.o vdif_q.o adv_t.o adv_s.o fct_t.o vdif_ts.o fct_s.o bcond_ts.o adjust_ts.o conv_over.o visitsim.o startup_type.o edge_len.o adcor.o icing.o rho_pmean.o calc_vort.o namelist.o nh_set_nesting.o coare26z.o coare40vn.o adv_uv_edge_gcn_rk.o adv_uv_edge_gcy_rk.o adv_t_rk.o adv_s_rk.o adv_q_rk.o mod_bio_3D.o mod_onedtide.o ocpmix.o ocpcre.o ocpids.o swanpre1.o swanpre2.o swanser.o swanmain.o swancom1.o swancom2.o swancom3.o swancom4.o swancom5.o w3part.o      -L/home/byy/local/lib -lmetis -lGKlib -lnetcdff -lnetcdf        -L/home/byy/Documents/FVCOM/src/libs/install/lib -ljulian        -Wl,-rpath,/home/byy/petsc/arch-linux-c-debug/lib -L/home/byy/petsc/arch-linux-c-debug/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib/fortran/gfortran -L/usr/lib/x86_64-linux-gnu/openmpi/lib/fortran/gfortran -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11 -lpetsc -lHYPRE -llapack -lblas -lm -lX11 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lopen-rte -lopen-pal -lhwloc -levent_core -levent_pthreads -lgfortran -lm -lz -lgfortran -lm -lgfortran -lgcc_s -lquadmath -lstdc++ -lquadmath -o fvcom
+make libfvcom
+make[1]: Entering directory '/home/byy/Documents/FVCOM/src'
+make[1]: Circular mod_prec.o <- mod_prec.o dependency dropped.
+ar rc libfvcom.a func_pointer.o partition.o mod_prec.o sinter.o mod_types.o mod_time.o mod_main.o mod_spherical.o mod_utils.o mod_clock.o eqs_of_state.o mod_interp.o mod_par.o mod_par_special.o mod_ncll.o mod_nctools.o mod_wd.o mod_sng.o mod_heatflux.o mod_solar.o mod_bulk.o mod_input.o mod_force.o mod_obcs.o mod_petsc.o mod_semi_implicit.o mod_non_hydro.o mod_set_time.o ice_kinds_mod.o ice_model_size.o ice_domain.o ice_constants.o ice_fileunits.o ice_state.o ice_work.o ice_grid.o ice_albedo.o ice_calendar.o ice_flux.o ice_flux_in.o ice_itd.o ice_mechred.o ice_itd_linear.o ice_scaling.o ice_atmo.o ice_ocean.o ice_therm_vertical.o ice_init.o ice_therm_itd.o mod_ice2d.o mod_ice.o mod_startup.o mod_wqm.o mod_ncdio.o mod_setup.o mod_newinp.o particle.o linklist.o mod_lag.o mod_northpole.o mod_pwp.o mod_dye.o mod_optimal_interpolation.o mod_report.o mod_probe.o mod_gotm.o mod_balance_2d.o mod_tridiag.o mod_scal.o mod_meanflow.o mod_obcs2.o mod_obcs3.o mod_sed.o mod_enkf.o mod_etkf.o mod_rrk.o mod_rrkf_obs.o mod_rrkassim.o mod_enkf_ncd.o enkf_ncdio.o mod_enkf_obs.o mod_enkfassim.o mod_assim.o mod_nesting.o mod_visit.o mod_plbc.o mod_dam.o mod_station_timeseries.o mod_sparse_timeseries.o mod_boundschk.o mod_esmf_nesting.o mod_cstms_vars.o mod_flocmod.o mod_sed_cstms.o mod_fluid_mud.o mod_tvd.o mod_mld_rho.o mod_vegetation.o mod_heatflux_sediment.o mod_vector_projection.o mod_main_wave.o swmod1.o swmod2.o swmod3.o mod_action_im.o mod_action_ex.o mod_wavesetup.o mod_wave_current_interaction.o mod_bbl.o fvcom.o genmap.o tge.o longshore_flow.o cell_area.o open_all.o load_grid.o allocate_all.o setup_domain.o genmap_obc.o genmap_lsf.o print_vals.o coords_n_const.o shape_coef_gcn.o shape_coef_gcy.o depth_grad.o grid_metrics.o cntrl_prmtrs.o init_sed.o internal_step.o bcond_gcn.o bcond_gcy.o adjust2d3d.o brough.o advection_edge_gcn.o advection_edge_gcy.o ghostuv.o advave_edge_gcn.o advave_edge_gcy.o phy_baropg.o baropg.o external_step.o extel_edge.o extuv_edge.o depth_check.o vertvl_edge.o adv_uv_edge_gcn.o adv_uv_edge_gcy.o vdif_uv.o extelpf_edge.o wreal.o viscofh.o adv_q.o fct_q2.o fct_q2l.o vdif_q.o adv_t.o adv_s.o fct_t.o vdif_ts.o fct_s.o bcond_ts.o adjust_ts.o conv_over.o visitsim.o startup_type.o edge_len.o adcor.o icing.o rho_pmean.o calc_vort.o namelist.o nh_set_nesting.o coare26z.o coare40vn.o adv_uv_edge_gcn_rk.o adv_uv_edge_gcy_rk.o adv_t_rk.o adv_s_rk.o adv_q_rk.o mod_bio_3D.o mod_onedtide.o ocpmix.o ocpcre.o ocpids.o swanpre1.o swanpre2.o swanser.o swanmain.o swancom1.o swancom2.o swancom3.o swancom4.o swancom5.o w3part.o  
+ranlib libfvcom.a
+make[1]: Leaving directory '/home/byy/Documents/FVCOM/src'
+byy@byy-MS-7E06:~/Documents/FVCOM/src$ 
