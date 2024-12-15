@@ -7,3 +7,9 @@
   - This problem is related to `FLAG_411`. A better solution is to compile Metis lib offline with `gklib_path` flag.
 - Finally, number of files is 533 (statistics by Dolphin).
 - Testing compilation by the "Estuary" example: [file](), command: `mpirun -np 4 ./fvcom --CASENAME=tst`.
+
+## Compilation of *NH* module
+- Compile using the latest version of FVCOM 4.* or 5.*. Petsc version: 3.18.5.
+- Petsc needs to be compiled using more general options `./configure  --download-metis --download-parametis --with-fc=mpif90 --with-cc=mpicc --with-cxx=mpicxx --download-hypre --download-fblaslapack  --with-precision=double -DPETSC-SKIP-ATTRIBUTE-MPI-TYPE-TAG=1 -Dfallow-argument-mismatch=1`.
+- Refer to the related issue: https://github.com/FVCOM-GitHub/FVCOM/issues/26
+- `mod_petsc.F` and `mod_non_hydro.F` need to be modified according to the most updated syntax of Petsc. 
