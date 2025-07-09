@@ -2,6 +2,7 @@
 
 ## Tricks for compiling FVCOM
 - 80% of the problems could be solved by following this procedure: [Link](https://inductiva.ai/blog/article/compiling-fvcom-a-handy-toolbox-for-solving-common-issues) , but this tutorial does not seem pay attention to parallel running.
+- Or follow Intel HPCKit: [Link]( https://www.bilibili.com/video/BV1ud4y12773/?spm_id_from=333.337.search-card.all.click&vd_source=05a73533c9b530f758c0381bf3bb542e). Compilation command: `make CC=icc CXX=icpc FC=ifort`.
 - Error undefined reference to 'partition_'.
   - Simple solution : https://github.com/FVCOM-GitHub/FVCOM/issues/17 but that does not support parallelism.
   - This problem is related to `FLAG_411`. A better solution is to compile Metis lib offline with `gklib_path` flag.
